@@ -1,0 +1,180 @@
+<form onsubmit="javascript:submitCheckValue();" id="kcuForm" name="kcuForm" enctype="multipart/form-data" method="post" required>
+<input type="hidden" id="check5" name="check5" value="N" />
+<input type="hidden" id="check_sp" name="check_sp" value="" />
+<input type="hidden" id="method" name="method" value="defaultWriteNext" />
+<input type="hidden" id="aplyType" name="aplyType" value="1" />
+<input type="hidden" id="yearTerm"              name="yearTerm"             value="" /> 
+<input type="hidden" id="collSeqn"              name="collSeqn"             value="" />
+<input type="hidden" id="gubnFlag"              name="gubnFlag"             value="" />
+<input type="hidden" id="txtHaknyeon"           name="txtHaknyeon"          value="" />
+<input type="hidden" id="examNumb"              name="examNumb"             value="" />
+<input type="hidden" id="rsnoNumb"              name="rsnoNumb"             value="" />
+<input type="hidden" id="sexGB"                 name="sexGB"                value="" />
+<input type="hidden" id="cbJanghak"             name="cbJanghak"            value="" />
+<input type="hidden" id="txtHakgwaCode"         name="txtHakgwaCode"        value="" />
+<input type="hidden" id="txtNationalityCode"    name="txtNationalityCode"   value="" />
+<input type="hidden" id="geojujiGB"             name="geojujiGB"            value="" />
+<input type="hidden" id="txtGeojujiCode"        name="txtGeojujiCode"       value="" />
+<input type="hidden" id="txtHomeTel"            name="txtHomeTel"           value="" />
+<input type="hidden" id="txtOffiTel"            name="txtOffiTel"           value="" />
+<input type="hidden" id="txtHp"                 name="txtHp"                value="" />
+<input type="hidden" id="txtEmailAddr"          name="txtEmailAddr"         value="" />
+<input type="hidden" id="txtUnivCD"             name="txtUnivCD"            value="" />
+<input type="hidden" id="txtUnivCD1"            name="txtUnivCD1"           value="" />
+<input type="hidden" id="txtUnivCD2"            name="txtUnivCD2"           value="" />
+<input type="hidden" id="txtUnivCD3"            name="txtUnivCD3"           value="" />
+<input type="hidden" id="univName"              name="univName"             value="" />
+<input type="hidden" id="univName1"             name="univName1"            value="" />
+<input type="hidden" id="univName2"             name="univName2"            value="" />
+<input type="hidden" id="univName3"             name="univName3"            value="" />
+<input type="hidden" id="txtHighCode"           name="txtHighCode"          value="" />
+<input type="hidden" id="txtPassCode"           name="txtPassCode"          value="" />
+<input type="hidden" id="txtJaZCode"            name="txtJaZCode"           value="" />
+<input type="hidden" id="txtWoZCode"            name="txtWoZCode"           value="" />
+<input type="hidden" id="chucheonHName"         name="chucheonHName"        value="" />
+<input type="hidden" id="chucheonDetail"        name="chucheonDetail"       value="" />
+<input type="hidden" id="userIp"                name="userIp"               value="" />
+<input type="hidden" id="aplyCode1"             name="aplyCode1"            value="" />
+<input type="hidden" id="aplyCode2"             name="aplyCode2"            value="" />
+<input type="hidden" id="rcom_flag" name="rcom_flag" value="" />
+<input type="hidden" name="check5" id="check5" value="N"/>
+<input type="hidden" name="check_sp" id="check_sp" value=""/>
+<input type="hidden" id="indscode" name="indscode" value="" />
+<input type="hidden" id="indsysno" name="indsysno" value="" />
+<input type="hidden" id="flag" name="flag" value="A" />
+<input type="hidden" id="geoju_janghak" name="geoju_janghak" value="0" />
+<input type="hidden" id="geoju_janghak_1" name="geoju_janghak_1" value="" />
+<input type="hidden" id="geoju_indscode_1" name="geoju_indscode_1" value="" />
+<input type="hidden" id="company_janghak" name="company_janghak" value="0" />
+<input type="hidden" id="company_janghak_1" name="company_janghak_1" value="" />
+<input type="hidden" id="company_indscode_1" name="company_indscode_1" value="" />
+<input type="hidden" id="gokyo_janghak" name="gokyo_janghak" value="0" />
+<input type="hidden" id="gokyo_janghak_1" name="gokyo_janghak_1" value="" />
+<input type="hidden" id="gokyo_indscode_1" name="gokyo_indscode_1" value="" />
+<input type="hidden" id="deahak_janghak1" name="deahak_janghak1" value="0" />
+<input type="hidden" id="deahak_janghak1_1" name="deahak_janghak1_1" value="" />
+<input type="hidden" id="deahak_indscode1_1" name="deahak_indscode1_1" value="" />
+<input type="hidden" id="deahak_janghak2" name="deahak_janghak2" value="0" />
+<input type="hidden" id="deahak_janghak2_1" name="deahak_janghak2_1" value="" />
+<input type="hidden" id="deahak_indscode2_1" name="deahak_indscode2_1" value="" />
+<input type="hidden" id="deahak_janghak3" name="deahak_janghak3" value="0" />
+<input type="hidden" id="deahak_janghak3_1" name="deahak_janghak3_1" value="" />
+<input type="hidden" id="deahak_indscode3_1" name="deahak_indscode3_1" value="" />
+<input type="hidden" id="deahak_janghak4" name="deahak_janghak4" value="0" />
+<input type="hidden" id="deahak_janghak4_1" name="deahak_janghak4_1" value="" />
+<input type="hidden" id="deahak_indscode4_1" name="deahak_indscode4_1" value="" />
+<input type="hidden" id="janghak" name="janghak" value="0" />
+<input type="hidden" id="janghak_1" name="janghak_1" value="" />
+<input type="hidden" name="txtGyeyeol_1" id="txtGyeyeol_1" />
+<input type="hidden" name="txtHakbu_1" id="txtHakbu_1" />
+<input type="hidden" name="txtGyeyeol_2" id="txtGyeyeol_2" />
+<input type="hidden" name="txtHakbu_2" id="txtHakbu_2" />
+<input type="hidden" name="timescript" id="timescript" />
+<input type="hidden" name="entrGubn" id="entrGubn" />
+
+<input type="radio" class="rdo" name="Category" id="Category" dispname="신입학" value="1"  checked="checked" onclick="javascript:categoryChange('1')"/>
+<input type="radio" class="rdo" name="Category" id="Category" dispname="편입학" value="2"  onclick="javascript:categoryChange('2')"/>
+<input type="radio" class="rdo" name="Category" id="Category" dispname="시간제" value="3"  onclick="javascript:categoryChange('3')"/>
+<select name="changeJh" id="changeJh" title="전형 선택, 전형 변경시 해당 전형의 모집요강으로 이동합니다.">
+<input id="changeJhTemp" name="changeJhTemp" type="hidden" value="01" />
+<input type="hidden" valie="IE8 오류 대응" />
+<select class="select" name="cbHakgwa" id="cbHakgwa" title="지원학과 1지망" dispname='1지망 학과' notnull disabled>
+<select class="select" name="cbHakgwa2" id="cbHakgwa2" title="지원학과 2지망" dispname='2지망 학과' notnull disabled>
+<input type="password" class="txt input_w6" id="txtExamPasswd" name="txtExamPasswd" title="비밀번호" dispname="비밀번호" required maxlength="20"/>
+<input type="password" class="txt input_w6" id="txtExamPasswd2" name="txtExamPasswd2" title="비밀번호 확인" dispname="확인 비밀번호" maxlength="20" />
+<input type="radio" class="rdo" name="raInoutGB" id="raInoutGB" dispname="내/외국인구분" notnull value="1" onclick="javascript:raInoutGBChange()" /> 내국인</label>
+<input type="radio" class="rdo" name="raInoutGB" id="raInoutGB" dispname="내/외국인구분" notnull value="9" onclick="javascript:raInoutGBChange()" /> 외국인</label>
+<input type="text" class="txt input_w1" title="국적"  alue="" name="txtGugga" id="txtGugga" readOnly /> 
+<input type="button" value="검색" class="btn__type1 btn__gray btn__size1" name="btnGugga" id="btnGugga" title="새창열림" onclick="javasciprt:NationalitySearch(myForm)" disabled  />
+<input type="number" class="txt input_w1" name="txtRsnoNumb1" id="txtRsnoNumb1" maxLength="6" lenCheck="6" title="주민번호 앞자리" dispName="주민번호 앞자리" notnull validType="numeric" /> 
+<input type="password" class="txt input_w1" name="txtRsnoNumb2" id="txtRsnoNumb2" maxLength="7" title="주민번호 뒷자리" dispName="주민번호 뒷자리" notnull lenCheck="7" validType="numeric" />
+<input type="button" value="SMS인증" class="btn__type1 btn__gray btn__size2" name="resnobutton" id="resnobutton" title="SMS인증" onclick="javascript:callNiceCheck();" />
+<input type="button" value="아이핀인증" class="btn__type1 btn__gray btn__size2" name="btnIPin" id="btnIPin" title="아이핀인증 새창열림" onclick="javascript:OpenGPin();" />
+<input type="hidden" name="isIPinChecked" id="isIPinChecked" value=""/>
+<input type="text" class="txt input_w5" name="txtHName" id="txtHName" title="한글 성명" dispname="한글성명" notnull  maxlength="20" style="ime-mode:active;" />
+<input type="hidden" class="text hname" name="RealName" id="RealName" dispname="실명여부" />
+<input type="hidden" class="text hname" name="IPIN" id="IPIN" dispname="I-PIN여부" />
+<input type="url" class="txt input_w5" name="txtEName" id="txtEName" title="영문 성명" dispname="영문성명" notnull onKeyUp="javascript:checkChar(this)" maxlength="30" style="ime-mode:inactive;"/>
+<input type="radio" class="rdo" name="raSexGB" id="raSexGB" dispname="성별" value="1" onclick="javascript:raSexGBChange()"/> 남</label>
+<input type="radio" class="rdo" name="raSexGB" id="raSexGB" dispname="성별" value="2" onclick="javascript:raSexGBChange()"/> 여</label>
+<input type="radio" class="rdo" id="raGeoju1" name="raGeoju" dispname="거주지" value="1" onClick="javascript:raGeojuChange('1')" /> 국내거주</label>
+<input type="text" class="txt input_w2" title="국내거주지"  readonly name="txtGeoju_1" id="txtGeoju_1" value="" />
+<input type="button" value="검색" class="btn__type1 btn__gray btn__size1" name="btnGeoju_1" disabled  onclick="javascript:GeojuInSearch(myForm)" title="새창열림" /> 
+<input type="radio" class="rdo" id="raGeoju2" name="raGeoju" dispname="거주지" value="2" onClick="javascript:raGeojuChange('2')" /> 해외거주</label>
+<input type="text" class="txt input_w3" title="해외거주지" readonly name="txtGeoju_2" id="txtGeoju_2" value="" />
+<input type="button" value="검색" class="btn__type1 btn__gray btn__size1" name="btnGeoju_2" disabled  onclick="javascript:GeojuOutSearch(myForm)" title="새창열림" />
+<input type="text" class="txt input_w4" title="자택를 입력해주세요." name="txtHomeTel_0" id="txtHomeTel_0" />
+<select id='cbHomeTel_1' name='cbHomeTel_1'  title='자택 지역번호 선택'   >
+<input type="number" class="txt input_w1" title="자택 전화번호 가운데 자리 입력" validType="numeric" maxLength="4" name="txtHomeTel_2" id="txtHomeTel_2"  /> 
+<input type="number" class="txt input_w1" title="자택 전화번호 마지막 자리 입력" validType="numeric" maxLength="4" name="txtHomeTel_3" id="txtHomeTel_3" />                  
+<input type="text" class="txt input_w4" title="직장를 입력해주세요." name="txtOffiTel_0" id="txtOffiTel_0" />
+<select id='cbOffiTel_1' name='cbOffiTel_1'  title='직장 지역번호 선택' dispname=직장   >
+<input type="number" class="txt input_w1" title="직장 전화번호 가운데 자리 입력" validType="numeric" maxlength="4" name="txtOffiTel_2" id="txtOffiTel_2" /> 
+<input type="number" class="txt input_w1" title="직장 전화번호 마지막 자리 입력" validType="numeric" maxLength="4" name="txtOffiTel_3" id="txtOffiTel_3"  />
+<input type="text" class="txt input_w4" title="휴대폰를 입력해주세요." name="txtHp_0" id="txtHp_0" />
+<select class="phone" name="cbHp_1" id="cbHp_1" title="휴대폰 통신사번호 선택">
+<input type="number" class="txt input_w1" title="휴대폰 번호 가운데 자리 입력" name="txtHp_2" id="txtHp_2" validType="numeric" maxlength="4"  dispname="휴대폰 번호" notnull/> 
+<input type="number" class="txt input_w1" title="휴대폰 번호 마지막 자리 입력" name="txtHp_3" id="txtHp_3" validType="numeric" maxlength="4"  dispname="휴대폰 번호" notnull/>                                               
+<input type="email" class="txt input_w1" title="이메일 아이디" name="txtEmailAddr1" id="txtEmailAddr1" dispname="메일주소" maxlength="19" notnull style="ime-mode:inactive;" />
+<input type="text" class="txt input_w1" title="이메일 계정" name="txtEmailAddr2" id="txtEmailAddr2" dispname="메일상세주소" readOnly maxlength="20" notnull />
+<select name="cbEmailList" id="cbEmailList" onchange="EmailInsert()" title="이메일 계정 선택">
+<input type="text" class="txt input_w1" title="자택 우편번호" name="txtJaZCode_1" id="txtJaZCode_1" value="" dispname="우편번호 앞자리" maxlength="3" readonly onclick="javascript:raJusoSearch()" />
+<input type="hidden" class="txt input_w1" title="자택 우편번호 마지막자리를 입력해주세요." name="txtJaZCode_2" id="txtJaZCode_2" value="" dispname="우편번호 뒷자리" maxlength="3" readonly onclick="javascript:raJusoSearch()" /> 
+<input type="button" name="btnJaZCode" id="btnJaZCode" value="우편번호확인" class="btn__type1 btn__gray btn__size2" onclick="javascript:raJusoSearch()" title="새창열림" />
+<input type="text" class="txt input_w4" title="자택 주소 입력" name="txtJaAddr_1" id="txtJaAddr_1" value="" dispname="주소" readOnly />
+<input type="text" class="txt input_w4 mt3" title="자택 상세주소 입력" name="txtJaAddr_2" id="txtJaAddr_2" value="" dispname="주소" />
+<input type="hidden" class="txt input_w4" title="자택 도로명 주소 입력" name="txtJaAddrDoro_1" id="txtJaAddrDoro_1" value="" dispname="주소" readOnly />
+<input type="hidden" class="txt input_w4 mt3" title="자택 도로명 상세주소 입력" name="txtJaAddrDoro_2" id="txtJaAddrDoro_2" value="" dispname="주소" />
+<input type="checkbox" class="chk" name="chk_dongil" dispname="동일" onClick="javascript:setPasteJuso()"/> 자택주소와 동일</label>
+<input type="text" class="txt input_w1" title="우편물 수령지 우편번호" name="txtWoZCode_1" id="txtWoZCode_1" maxlength="3" readOnly value="" onclick="javascript:WopyeonSearch(myForm)" /> 
+<input type="hidden" class="txt input_w1" title="우편물 수령지 우편번호 마지막자리를 입력해주세요." name="txtWoZCode_2" id="txtWoZCode_2"   maxlength="3" readOnly value="" onclick="javascript:WopyeonSearch(myForm)" />
+<input type="button" value="우편번호확인" class="btn__type1 btn__gray btn__size2" name="btnWoZCode" id="btnWoZCode" onclick="javascript:WopyeonSearch(myForm)" title="새창열림" />
+<input type="text" class="txt input_w4" title="우편물 수령지 주소 입력" name="txtWoAddr_1" id="txtWoAddr_1" value="" readOnly/> 
+<input type="text" class="txt input_w4 mt3" title="우편물 수령지 상세주소 입력" name="txtWoAddr_2" id="txtWoAddr_2" value="" />
+<input type="hidden" class="txt input_w4" title="우편물 수령지 도로명 주소 입력" name="txtWoAddrDoro_1" id="txtWoAddrDoro_1" value="" readOnly/> 
+<input type="hidden" class="txt input_w4 mt3" title="우편물 수령지 도로명 상세주소 입력" name="txtWoAddrDoro_2" id="txtWoAddrDoro_2" value="" />
+<select id='cbJikjong' name='cbJikjong'  title='직종 선택' dispname=현직업 직종  notnull  >
+<input type="hidden" name="hdAplyType" id="hdAplyType" value ="1" />
+<input type="text" class="txt input_w1" title="회사명 입력" name="txtOffiName" id="txtOffiName" size="12" dispname="현직업 회사명"  notnull readOnly required onclick="javascript:OffiSearch(myForm)" /></label>
+<input type="button" value="검색" class="btn__type1 btn__gray btn__size1" onclick="javascript:OffiSearch(myForm)" title="새창열림" />
+<input type="hidden" title="직위 입력" id="txtOffiBuseo" name="txtOffiBuseo" notnull value="" />
+<select id='cbMilitary' name='cbMilitary'  title='병역 선택' dispname=병역  null  >
+<select id='cbHakryeok' name='cbHakryeok'  title='최종학력 선택' dispname=최종학력  null onChange='javascript:HakryeokChange(this)' >
+<input type="radio" class="rdo" id="raGraduation" name="raGraduation" value="03" onclick="javascript:raGraduationChange()" />  고등학교 졸업자</label>
+<input type="radio" class="rdo" id="raGraduation" name="raGraduation" value="02" onclick="javascript:raGraduationChange()" /> 검정고시 합격자</label>
+<input type="text" class="txt" title="학교명 입력" id="txtHighName" name="txtHighName" readOnly disabled value="" onclick="javascript:GogyoSearch(myForm)" /></label>
+<input type="button" value="검색" class="btn__type1 btn__gray btn__size1" name="btnHighSearch" onclick="javascript:GogyoSearch(myForm)" title="새창열림" /> 
+<select id='cbHigh_01' name='cbHigh_01'  title='졸업년도 선택' dispname=졸업년도  null  >
+<select class="high_02" id="cbHigh_02" name="cbHigh_02" title="졸업구분 선택">
+<input type="text" class="txt" title="검정고시 입력" name="txtPassName" id='txtPassName' readOnly disabled value="" onclick="javascript:PassSearch(myForm)" /></label>
+<input type="button" value="검색" class="btn__type1 btn__gray btn__size1" name="btnPassSearch" onclick="javascript:PassSearch(myForm)"  title="새창열림" /> 
+<select id='cbPass_01' name='cbPass_01'  title='검정고시 년도 선택' dispname=검정고시년도  null  >
+<input disabled type="radio" class="rdo" id="raDaehakwon_1" name="raDaehakwon" value="1" onclick="javascript:raDaehakwonChange()"/> 대학(원)</label>
+<input disabled type="radio" class="rdo" id="raDaehakwon_2" name="raDaehakwon" value="2" onclick="javascript:raDaehakwonChange()"/> 학점은행제</label> 
+<input disabled type="radio" class="rdo" id="raDaehakwon_3" name="raDaehakwon" value="3" onclick="javascript:raDaehakwonChange()"/> 독학사</label>
+<input type="text" class="txt" title="학교명 입력" id="txtUnivName" name="txtUnivName" readOnly disabled value="" onclick="javascript:DaehakSearch(myForm)" /> </label>
+<input disabled type="button" value="검색" class="btn__type1 btn__gray btn__size1" name="btnUnivSearch" onclick="javascript:DaehakSearch(myForm)" title="새창열림" />
+<select id='cbUnivYear' name='cbUnivYear'  title='졸업년도 선택' dispname=졸업년도  null  >
+<select id='cbUnivState' name='cbUnivState'  title='졸업구분 선택' dispname=졸업구분  null  >
+<input type="text" class="txt" title="학과 입력" name="txtDepartName" id='txtDepartName' value="" /></label>
+<input type="radio" class="rdo" name="raChucheon" dispname="추천여부" value="1" onclick="javascript:raChucheonClicked()" /> 네</label>
+<input type="radio" class="rdo" name="raChucheon" dispname="추천여부" value="2" checked="checked" onclick="javascript:raChucheonClicked()" /> 아니요</label>
+<input type="radio" class="rdo"  name="raChucheonGB" disabled value="3" onclick="javascript:raChucheonGBClicked();" /> 졸업생</label>
+<input type="text" class="txt input_w1" title="졸업생 이름을 입력해주세요." name="txtChucheonJoleopHName" value=""></label>
+<input type="hidden" name="txtChucheonJoleopHakbeon" value="" />
+<input type="text" class="txt input_w2" title="졸업생 학번을 입력해주세요." name="txtChucheonJoleopHakbeonMask" value="" /></label>
+<input type="radio" class="rdo" name="raChucheonGB" disabled value="1" onclick="javascript:raChucheonGBClicked();" /> 재학생</label>
+<input type="text" class="txt input_w1" title="재학생 이름을 입력해주세요." name="txtChucheonJaehakHName" value="" /></label>
+<input type="hidden" name="txtChucheonJaehakHakbeon" value="" />
+<input type="text" class="txt input_w2" title="재학생 소속부서를 입력해주세요." name="txtChucheonJaehakHakbeonMask" value="" /></label>
+<input type="radio" class="rdo" name="raChucheonGB" disabled value="4" onclick="javascript:raChucheonGBClicked();" /> 교직원</label>
+<input type="text" class="txt input_w1" title="재학생 이름을 입력해주세요." name="txtChucheonGyojikHName" value="" /></label>
+<input type="text" class="txt input_w2" title="교직원 소속부서를 입력해주세요." name="txtChucheonGyojikBuseo" value="" /></label>
+<input  type="radio" class="rdo" id="raDaehakwon_1" name="raDaehakwon'+ index +'" value="1" onclick="javascript:raDaehakwonChange'+ index +'()"/> 대학(원)</label>'
+<input  type="radio" class="rdo" id="raDaehakwon_2" name="raDaehakwon'+ index +'" value="2" onclick="javascript:raDaehakwonChange'+ index +'()"/> 학점은행제</label> '
+<input  type="radio" class="rdo" id="raDaehakwon_3" name="raDaehakwon'+ index +'" value="3" onclick="javascript:raDaehakwonChange'+ index +'()"/> 독학사</label>'
+<input type="text" class="txt" title="학교명을 입력해주세요." id="txtUnivName'+ index +'" name="txtUnivName'+ index +'" readOnly disabled value="" onclick="javascript:DaehakSearch'+ index +'(myForm)" /> </label>'
+<input disabled type="button" value="검색" class="btn__type1 btn__gray btn__size1" name="btnUnivSearch'+ index +'" onclick="javascript:DaehakSearch'+ index +'(myForm)" />'
+<select id="cbUnivYear" name="cbUnivYear"  title="" dispname=졸업년도  null  >
+<select id="cbUnivState" name="cbUnivState"  title="" dispname=졸업구분  null  >
+<input type="text" class="txt" title="학과를 입력해주세요." name="txtDepartName'+ index +'" id="txtDepartName'+ index +'" /></label>'
