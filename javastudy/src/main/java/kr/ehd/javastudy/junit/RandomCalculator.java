@@ -10,13 +10,9 @@ public class RandomCalculator {
 		this.random = random;
 		this.calculator = calculator;
 	}
-
-	public int plus(int i1, int i2) {
-		return this.calculator.plusSingle(i1, i2);
-	}
 	
 	public int plus(int... targets) {
-		return this.calculator.plusMulti(targets) + this.random.nextInt();
+		return this.calculator.plus(targets) + this.random.nextInt();
 	}
 
 }
